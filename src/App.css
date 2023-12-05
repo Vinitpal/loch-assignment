@@ -331,12 +331,14 @@
 @media screen and (max-width: 900px) {
   .home {
     width: 100%;
+    overflow: hidden;
   }
 
   .right {
-    width: 80%;
-    margin: 0 auto 2rem;
-    padding: 3rem 0;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 0 2rem;
+    padding: 3rem;
 
     align-items: center;
     text-align: center;
@@ -346,6 +348,7 @@
   }
 
   .left {
+    overflow: hidden;
     width: 100%;
   }
 
